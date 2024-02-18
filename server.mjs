@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get('/discord-avatar/:userId', async (req, res) => {
   const userId = req.params.userId;
-  const token = 'MTIwMzI0OTMzNTU2Mzk4NDkwNw.G-T5iI.ym4fN3dLZRQHTtpZvVwC2XwxtXLuaWdaJFzwms'; // Substitua pelo seu token de bot do Discord
+  const token = 'MTIwMzI0OTMzNTU2Mzk4NDkwNw.GRMDD9.FDzZk7ZkzGwNKW7_WE6SPQjs8plhueUXVoBKOg'; // Substitua pelo seu token de bot do Discord
 
   try {
     const response = await fetch(`https://discord.com/api/users/${userId}`, {
